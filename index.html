@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Importancia de estudiar EMS</title>
+
+<script src="al.js"></script>
+
+<style>
+/* Estilo general */
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:url("habitos.png") no-repeat center center fixed;
+    background-size:cover;
+}
+
+/* Barra superior */
+nav{
+   background:linear-gradient(90deg,#1e3c72,#2a5298);
+   box-shadow:0 4px 10px rgba(0,0,0,.3);
+}
+
+nav ul{
+   list-style:none;
+   margin:0;
+   padding:0;
+   display:flex;
+   align-items:center;
+}
+
+/* Elementos del menú */
+nav ul li{
+   position:relative;
+}
+
+nav ul li a{
+   display:block;
+   padding:18px 20px;
+   color:white;
+   text-decoration:none;
+   font-weight:bold;
+   transition:.3s;
+}
+
+nav ul li a:hover{
+   background:#4f8edc;
+}
+
+/* Logo */
+.logo img{
+   height:70px;
+   margin:5px 15px;
+}
+
+/* Buscador */
+.search-box{
+   margin-left:auto;
+   padding-right:15px;
+}
+
+.search-box input[type="text"]{
+   padding:6px;
+   border-radius:5px;
+   border:none;
+}
+
+.search-box input[type="submit"]{
+   padding:6px 10px;
+   border:none;
+   background:#38bdf8;
+   color:white;
+   border-radius:5px;
+   cursor:pointer;
+}
+
+/* Submenú */
+nav ul li ul{
+   display:none;
+   position:absolute;
+   top:100%;
+   left:0;
+   background:#1e3c72;
+   min-width:200px;
+}
+
+nav ul li ul li a{
+   padding:12px;
+}
+
+nav ul li:hover ul{
+   display:block;
+}
+
+/* Responsive */
+@media(max-width:700px){
+   nav ul{
+      flex-direction:column;
+   }
+
+   .search-box{
+      margin:10px 0;
+   }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<ul>
+
+<li class="logo">
+<img src="cecytem-logo.png">
+</li>
+
+<li><a href="beneficios.html">IMPORTANCIA DE EMS</a></li>
+
+<li>
+<a href="#">SERVICIOS</a>
+<ul>
+<li><a href="presentables.html">PRESENTABLES</a></li>
+</ul>
+</li>
+
+<li><a href="https://cecytem.edomex.gob.mx/mision_vision_objetivos">LINK ADICIONAL</a></li>
+
+<li><a href="index_a.php">VISITANTES</a></li>
+
+<li class="search-box">
+<form action="https://www.google.com/search" method="get">
+<input type="text" name="q" placeholder="Buscar en Google">
+<input type="submit" value="Buscar">
+</form>
+</li>
+
+</ul>
+</nav>
+
+</body>
+</html>
